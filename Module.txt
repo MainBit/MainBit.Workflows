@@ -1,0 +1,11 @@
+﻿Name: MainBit.Workflows
+AntiForgery: enabled
+Author: The Orchard Team
+Website: http://orchardproject.net
+Version: 1.0
+OrchardVersion: 1.0
+Description: Description for the module
+Features:
+    MainBit.Workflows:
+        Description: Description for feature MainBit.Workflows.
+		Dependencies: Orchard.Forms, Orchard.Email, Orchard.Workflows
