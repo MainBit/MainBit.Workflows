@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Text;
-using JetBrains.Annotations;
 using Orchard.ContentManagement;
 using Orchard.Email.Models;
 using Orchard.ContentManagement.Handlers;
@@ -11,7 +10,6 @@ using System.Configuration;
 using MainBit.Workflows.Models;
 
 namespace MainBit.Workflows.Handlers {
-    [UsedImplicitly]
     public class MainbitSmtpSettingsPartHandler : ContentHandler {
         private readonly IEncryptionService _encryptionService;
 
